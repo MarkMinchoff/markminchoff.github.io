@@ -1,1 +1,22 @@
+/* Reset some default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
 
+/* Set background color to black and text color to white */
+body {
+    background-color: black;
+    color: white;
+}
+
+/* Style other elements as needed */
+h1 {
+    font-size: 2em;
+    /* Add any other styles you want for h1 */
+}
+
+p {
+    font-size: 1.2em;
+    /* Add any other styles you want for paragraphs */
+}
