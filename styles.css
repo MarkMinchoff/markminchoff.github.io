@@ -1,5 +1,5 @@
 /* Reset some default styles */
-body, h1, p, a {
+body, h1, p, a, div {
     margin: 0;
     padding: 0;
 }
@@ -10,12 +10,12 @@ body {
     color: white;
 }
 
-/* Center text in a specific element, for example, a div with a class of "center-container" */
+/* Center content in a specific element, for example, a div with a class of "center-container" */
 .center-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column; /* Added to stack text and link vertically */
+    flex-direction: column; /* Stack content vertically */
     height: 100vh; /* Adjust as needed */
 }
 
