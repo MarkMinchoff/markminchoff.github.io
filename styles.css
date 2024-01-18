@@ -1,5 +1,5 @@
 /* Reset some default styles */
-body, h1, p {
+body, h1, p, a {
     margin: 0;
     padding: 0;
 }
@@ -15,6 +15,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column; /* Added to stack text and link vertically */
     height: 100vh; /* Adjust as needed */
 }
 
@@ -25,4 +26,10 @@ body {
     /* Add any other styles you want for the centered text */
 }
 
-
+/* Style the LinkedIn link */
+.linkedin-link {
+    color: #0077b5; /* LinkedIn blue color */
+    text-decoration: none;
+    margin-top: 10px; /* Add spacing between text and link */
+    font-weight: bold; /* Make the link bold */
+}
