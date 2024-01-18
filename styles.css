@@ -10,19 +10,19 @@ body {
     color: white;
 }
 
-/* Style other elements as needed */
-h1 {
-    font-size: 2em;
-    /* Add any other styles you want for h1 */
-}
-
-p {
-    font-size: 1.2em;
-    /* Add any other styles you want for paragraphs */
-}
+/* Center text in a specific element, for example, a div with a class of "center-container" */
 .center-container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh; /* Adjust as needed */
 }
+
+/* Style the centered text */
+.centered-text {
+    text-align: center;
+    font-size: 1.5em; /* Adjust font size as needed */
+    /* Add any other styles you want for the centered text */
+}
+
+
