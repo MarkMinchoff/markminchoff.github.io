@@ -25,11 +25,3 @@ body {
     font-size: 1.5em; /* Adjust font size as needed */
     /* Add any other styles you want for the centered text */
 }
-
-/* Style the LinkedIn link */
-.linkedin-link {
-    color: #0077b5; /* LinkedIn blue color */
-    text-decoration: none;
-    margin-top: 10px; /* Add spacing between text and link */
-    font-weight: bold; /* Make the link bold */
-}
